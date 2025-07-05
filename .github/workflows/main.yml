@@ -50,7 +50,8 @@ jobs:
     - name: Run windeployqt
       shell: pwsh
       run: |
-        & "${{ env.Qt6_DIR }}/../../../bin/windeployqt.exe" build/V1.exe
+        $qt_bin = "${env:Qt6_DIR}" -replace '\\lib\\cmake\\Qt6$', '\bin'
+        & "$qt_bin\windeployqt.exe" build\V1.exe
 
     # 上传构建产物（可选）
     - name: Upload Artifact
