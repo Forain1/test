@@ -23,14 +23,7 @@
 			"include",
 			"find_package",
 			"find_dependency",
-			"_qt_internal_find_qt_dependencies",
-			"target_sources",
-			"_qt_internal_expose_deferred_files_to_ide",
-			"_qt_internal_expose_source_file_to_ide",
-			"qt6_add_translations",
-			"_qt_internal_process_resource",
-			"qt6_add_resources",
-			"__qt_propagate_generated_resource"
+			"_qt_internal_find_qt_dependencies"
 		],
 		"files" : 
 		[
@@ -48,9 +41,7 @@
 			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
-			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:817:EVAL"
+			"E:/Tools/QT/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
 		],
 		"nodes" : 
 		[
@@ -60,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 8,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -84,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 31,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 23,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -270,95 +261,6 @@
 				"file" : 12,
 				"line" : 61,
 				"parent" : 38
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 14,
-				"file" : 16,
-				"line" : 1,
-				"parent" : 40
-			},
-			{
-				"command" : 13,
-				"file" : 15,
-				"line" : 861,
-				"parent" : 41
-			},
-			{
-				"command" : 12,
-				"file" : 0,
-				"line" : 2122,
-				"parent" : 42
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 2197,
-				"parent" : 43
-			},
-			{
-				"command" : 16,
-				"file" : 15,
-				"line" : 887,
-				"parent" : 41
-			},
-			{
-				"command" : 15,
-				"file" : 0,
-				"line" : 401,
-				"parent" : 45
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2336,
-				"parent" : 46
-			},
-			{
-				"command" : 12,
-				"file" : 0,
-				"line" : 2122,
-				"parent" : 47
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 2197,
-				"parent" : 48
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2405,
-				"parent" : 46
-			},
-			{
-				"command" : 12,
-				"file" : 0,
-				"line" : 2122,
-				"parent" : 50
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 2197,
-				"parent" : 51
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 2528,
-				"parent" : 46
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 2072,
-				"parent" : 53
 			}
 		]
 	},
@@ -579,9 +481,10 @@
 			"sourceIndexes" : 
 			[
 				0,
-				13,
-				14,
-				15
+				9,
+				10,
+				11,
+				12
 			]
 		},
 		{
@@ -590,8 +493,7 @@
 			[
 				1,
 				2,
-				6,
-				12
+				6
 			]
 		},
 		{
@@ -614,25 +516,15 @@
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				8,
-				10
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				9,
-				11
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				16,
-				17,
-				18
+				13,
+				14
 			]
 		}
 	],
@@ -689,30 +581,6 @@
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 44,
-			"path" : "learn_zh_CN.ts",
-			"sourceGroupIndex" : 5
-		},
-		{
-			"backtrace" : 49,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/learn_translations.qrc",
-			"sourceGroupIndex" : 4
-		},
-		{
-			"backtrace" : 52,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_zh_CN.qm",
-			"sourceGroupIndex" : 5
-		},
-		{
-			"backtrace" : 54,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_learn_translations.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/include/ui_mainwindow.h",
@@ -732,21 +600,22 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_zh_CN.qm.rule",
-			"sourceGroupIndex" : 6
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_learn_translations.cpp.rule",
-			"sourceGroupIndex" : 6
+			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/EWIEGA46WW/qrc_src.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/timestamp.rule",
-			"sourceGroupIndex" : 6
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/EWIEGA46WW/qrc_src.cpp.rule",
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

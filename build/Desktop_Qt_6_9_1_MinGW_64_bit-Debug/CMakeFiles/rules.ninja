@@ -48,6 +48,15 @@ rule RERUN_CMAKE
 
 
 #############################################
+# Rule for re-checking globbed directories.
+
+rule VERIFY_GLOBS
+  command = E:\Tools\CMaker\bin\cmake.exe -P D:\College\ShortTerm\C++\learn\build\Desktop_Qt_6_9_1_MinGW_64_bit-Debug\CMakeFiles\VerifyGlobs.cmake
+  description = Re-checking globbed directories...
+  generator = 1
+
+
+#############################################
 # Rule for cleaning additional files.
 
 rule CLEAN_ADDITIONAL

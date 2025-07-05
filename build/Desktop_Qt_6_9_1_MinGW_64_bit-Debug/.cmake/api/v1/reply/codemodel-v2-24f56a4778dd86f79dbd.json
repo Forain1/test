@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7de8dd3cb233f68641ac.json",
+					"jsonFile" : "directory-.-Debug-72b2c545d579c711eca5.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -18,11 +18,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -39,11 +35,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -52,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "learn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn-Debug-e0ba2494401b6e27f909.json",
+					"jsonFile" : "target-learn-Debug-59ebab51b32e22f44f00.json",
 					"name" : "learn",
 					"projectIndex" : 0
 				},
@@ -68,34 +60,6 @@
 					"id" : "learn_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-learn_autogen_timestamp_deps-Debug-9771ce5c1eb0ad9f8ae3.json",
 					"name" : "learn_autogen_timestamp_deps",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "learn_lrelease::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_lrelease-Debug-2633eb40e4afc12dd1a5.json",
-					"name" : "learn_lrelease",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "learn_lupdate::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_lupdate-Debug-24696006b88dbb62599c.json",
-					"name" : "learn_lupdate",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "release_translations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-release_translations-Debug-40e71871074e6b521d51.json",
-					"name" : "release_translations",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "update_translations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-update_translations-Debug-d535e0dc42265345b124.json",
-					"name" : "update_translations",
 					"projectIndex" : 0
 				}
 			]
