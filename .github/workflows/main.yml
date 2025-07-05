@@ -27,14 +27,13 @@ jobs:
       run: echo "C:\\tools\\mingw64\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     # 安装 Qt（使用 Qt 6.5.2 是因为 6.9.1 MinGW 缺模块风险更大）
-    - name: Install Qt (MinGW)
+    - name: Install Qt (MinGW full)
       uses: jurplel/install-qt-action@v3
       with:
         version: '6.5.2'
         target: desktop
         arch: win64_mingw
-        modules: qtbase qttools
-        cache: true  # 加速构建
+        # 不加 modules，安装完整包（包含 qttools）
 
     # 编译项目
     - name: Configure CMake
