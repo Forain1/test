@@ -44,8 +44,10 @@ jobs:
 
     # 打包依赖 DLL（可选：windeployqt）
     - name: Run windeployqt
+      shell: pwsh
       run: |
-        "${{ github.workspace }}\\Qt\\6.5.2\\mingw_64\\bin\\windeployqt.exe" build\\learn.exe
+        & "D:/a/test/test/Qt/6.5.2/mingw_64/bin/windeployqt.exe" build/learn.exe
+
 
     # 上传构建产物
     - name: Upload Build Artifact
