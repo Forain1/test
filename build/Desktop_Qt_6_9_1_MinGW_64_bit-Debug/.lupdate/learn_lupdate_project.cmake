@@ -1,0 +1,11 @@
+set(lupdate_project_file "D:/College/ShortTerm/C++/learn/CMakeLists.txt")
+set(lupdate_translations "D:/College/ShortTerm/C++/learn/learn_zh_CN.ts")
+set(lupdate_include_paths "")
+set(lupdate_sources "")
+set(lupdate_subproject_count 1)
+
+set(lupdate_subproject1_source_dir "D:/College/ShortTerm/C++/learn")
+set(lupdate_subproject1_include_paths "D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/include;E:/Tools/QT/6.9.1/mingw_64/include/QtCore;E:/Tools/QT/6.9.1/mingw_64/include;E:/Tools/QT/6.9.1/mingw_64/mkspecs/win32-g++;E:/Tools/QT/6.9.1/mingw_64/include;E:/Tools/QT/6.9.1/mingw_64/include/QtWidgets;E:/Tools/QT/6.9.1/mingw_64/include;E:/Tools/QT/6.9.1/mingw_64/include/QtGui;E:/Tools/QT/6.9.1/mingw_64/include")
+set(lupdate_subproject1_sources "D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/mocs_compilation.cpp;main.cpp;mainwindow.cpp;mainwindow.h;mainwindow.ui;form.h;form.cpp;form.ui;src.qrc;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/learn_translations.qrc;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_zh_CN.qm;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_learn_translations.cpp;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/include/ui_mainwindow.h;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/include/ui_form.h;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/timestamp;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/EWIEGA46WW/qrc_src.cpp;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_zh_CN.qm.rule;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_learn_translations.cpp.rule;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/timestamp.rule;D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen/EWIEGA46WW/qrc_src.cpp.rule")
+set(lupdate_subproject1_excluded "")
+set(lupdate_subproject1_autogen_dir "D:/College/ShortTerm/C++/learn/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/learn_autogen")
