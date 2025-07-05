@@ -46,12 +46,6 @@ jobs:
     - name: Build Project
       run: cmake --build build --parallel
 
-    # 用 windeployqt 打包依赖
-    - name: Run windeployqt
-      shell: pwsh
-      run: |
-        $qt_bin = "${env:Qt6_DIR}" -replace '\\lib\\cmake\\Qt6$', '\bin'
-        & "$qt_bin\windeployqt.exe" build\V1.exe
 
     # 上传构建产物（可选）
     - name: Upload Artifact
